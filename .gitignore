@@ -1,2 +1,9 @@
 node_modules/
 package-lock.json
+groups/
+
+!.gitkeep
+src/public/students*
+!src/public/students/.gitkeep
+src/temp/*
+!src/temp/.gitkeep
