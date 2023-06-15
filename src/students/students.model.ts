@@ -47,7 +47,7 @@ export const createStudent = (createStudentSchema: Omit<IStudent, 'id'>): IStude
   return newStudent;
 };
 
-export const UpdateStudentById = (
+export const updateStudentById = (
   studentId: string,
   UpdateStudentSchema: Partial<IStudent>,
 ): IStudent | undefined => {
